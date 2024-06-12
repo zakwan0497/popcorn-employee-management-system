@@ -5,7 +5,7 @@ const CheckIn = () => {
     <div className='d-flex justify-content-center align-items-center vh-100 checkInPage'>
       <div className='p-3 rounded w-25 border checkInForm'>
         <h2>Popcorn</h2>
-        <h2>Check In Page</h2>
+        <h4>*insert gambar popcorn monyok kena masuk kerja</h4>
         <form>
           <div>
             <label htmlFor="employeeId"></label>

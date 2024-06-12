@@ -1,0 +1,28 @@
+.sidebar {
+    width: 250px;
+    background-color: #444;
+    color: white;
+    height: 100vh;
+    padding: 1rem;
+    position: fixed;
+    top: 64px; /* height of the top bar */
+    left: 0;
+  }
+  
+  .sidebar-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar-links li {
+    margin: 1rem 0;
+  }
+  
+  .sidebar-links li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .sidebar-links li a:hover {
+    text-decoration: underline;
+  }

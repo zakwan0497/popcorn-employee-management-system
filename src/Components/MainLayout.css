@@ -1,0 +1,64 @@
+/* Styles for the top bar and sidebar layout */
+.topbar {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .top-nav .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .top-nav .nav-links li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .top-nav .nav-links li a:hover {
+    text-decoration: underline;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #444;
+    color: white;
+    height: 100vh;
+    padding: 1rem;
+    position: fixed;
+    top: 64px; /* height of the top bar */
+    left: 0;
+  }
+  
+  .sidebar-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar-links li {
+    margin: 1rem 0;
+  }
+  
+  .sidebar-links li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .sidebar-links li a:hover {
+    text-decoration: underline;
+  }
+  
+  .content {
+    margin-left: 250px; /* width of the sidebar */
+    padding: 2rem;
+    margin-top: 64px; /* height of the top bar */
+    height: 100vh;
+  }
